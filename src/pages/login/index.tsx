@@ -1,7 +1,14 @@
 import Image from 'next/image'
-import { Container, ImageColumn, LoginColumn, OptionsLogin } from './styles'
+import {
+  Container,
+  ImageColumn,
+  LoginColumn,
+  Logo,
+  OptionsLogin,
+} from './styles'
 
 import imageLogin from '../../assets/image-login.png'
+import logo from '../../assets/logo.svg'
 
 import googleIcon from '../../assets/google-icon.svg'
 import githubIcon from '../../assets/github-icon.svg'
@@ -18,7 +25,9 @@ export default function Login() {
           alt="imagem book wise"
         />
       </ImageColumn>
+
       <LoginColumn>
+        <Logo src={logo} alt="logo book wise" />
         <OptionsLogin>
           <div>
             <h1>Boas Vindas!</h1>
