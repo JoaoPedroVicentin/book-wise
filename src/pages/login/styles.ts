@@ -2,7 +2,7 @@ import { styled } from '@/styles/stitches.config'
 
 import Image from 'next/image'
 
-export const Container = styled('div', {
+export const LoginContainer = styled('div', {
   width: '100vw',
   height: '100vh',
 
@@ -14,6 +14,8 @@ export const Container = styled('div', {
 
   '@media(max-width: 765px)': {
     gridTemplateColumns: '1fr',
+
+    background: '$gray700',
   },
 })
 
@@ -70,7 +72,9 @@ export const OptionsLogin = styled('div', {
       alignItems: 'center',
 
       fontSize: '$lg',
-      fontWeight: '$medium',
+      fontWeight: '$bold',
+
+      textDecoration: 'none',
 
       gap: '1.25rem',
       padding: '1.25rem 1.5rem',
@@ -82,7 +86,7 @@ export const OptionsLogin = styled('div', {
       transition: 'all 0.3s ease',
 
       '&:hover': {
-        filter: 'brightness(1.5)',
+        backgroundColor: '$gray500',
       },
 
       '@media(max-width: 865px)': {

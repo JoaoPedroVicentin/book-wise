@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
+
 import {
-  Container,
+  LoginContainer,
   ImageColumn,
   LoginColumn,
   Logo,
@@ -16,7 +18,7 @@ import rocketIcon from '../../assets/rocket-icon.svg'
 
 export default function Login() {
   return (
-    <Container>
+    <LoginContainer>
       <ImageColumn>
         <Image
           src={imageLogin}
@@ -40,13 +42,13 @@ export default function Login() {
             <a>
               <Image src={githubIcon} alt="github icon" /> Entrar com o Github
             </a>
-            <a>
+            <Link href={'/home'}>
               <Image src={rocketIcon} alt="rocket icon" /> Acessar como
               visitante
-            </a>
+            </Link>
           </div>
         </OptionsLogin>
       </LoginColumn>
-    </Container>
+    </LoginContainer>
   )
 }
