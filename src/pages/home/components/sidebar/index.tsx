@@ -35,7 +35,7 @@ export function Sidebar() {
       </div>
 
       <Login>
-        <Link href={'/'}>
+        <Link href={'/login'}>
           Fazer login <SignIn size={24} color="#50B2C0" />
         </Link>
       </Login>

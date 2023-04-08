@@ -4,11 +4,10 @@ export const CardContainer = styled('div', {
   backgroundColor: '$gray700',
 
   display: 'flex',
-
   gap: '1.25rem',
-
   padding: '1.125rem 1.25rem',
 
+  border: '1px solid #181c2a',
   borderRadius: '8px',
 
   div: {
@@ -21,12 +20,20 @@ export const CardContainer = styled('div', {
       gap: '0.25rem',
     },
   },
+
+  cursor: 'pointer',
+
+  transition: 'all 0.3s ease',
+
+  '&:hover': {
+    borderColor: '$gray600',
+  },
 })
 
 export const BookInfos = styled('div', {
   h2: {
     fontSize: '$md',
-    marginBottom: 0,
+    marginBottom: -1,
   },
   h3: {
     fontSize: '$sm',

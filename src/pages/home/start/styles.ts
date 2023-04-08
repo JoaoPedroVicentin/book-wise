@@ -6,8 +6,6 @@ export const StartContainer = styled('div', {
   display: 'flex',
   flexDirection: 'column',
 
-  paddingTop: '2.5rem',
-
   h2: {
     fontSize: '$sm',
     fontWeight: '$medium',
@@ -28,7 +26,7 @@ export const Header = styled('div', {
   alignItems: 'center',
   gap: '0.75rem',
 
-  marginBottom: '2.5rem',
+  marginBottom: '1.5rem',
 })
 
 export const RecentReviews = styled('div', {

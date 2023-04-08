@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import { BookInfos, CardContainer, StarIcon } from './styles'
+import { BookInfos, CardContainer } from './styles'
 
-import book from 'src/assets/books/Book.png'
+import book from 'src/assets/books/a-revolucao-dos-bichos.png'
 import { Star } from 'phosphor-react'
 
 export function CardBook() {

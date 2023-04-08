@@ -26,7 +26,7 @@ export const UserReview = styled('div', {
 export const InfosUser = styled('div', {
   h2: {
     fontSize: '$md',
-    marginBottom: 0,
+    marginBottom: -1,
   },
   h3: {
     fontSize: '$sm',
