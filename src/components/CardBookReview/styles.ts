@@ -16,6 +16,11 @@ export const UserReview = styled('div', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
+
+  span: {
+    display: 'flex',
+    gap: '0.25rem',
+  },
 })
 
 export const InfosUser = styled('div', {

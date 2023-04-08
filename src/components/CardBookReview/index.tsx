@@ -13,6 +13,7 @@ import {
 import user from 'src/assets/user.jpg'
 import book from 'src/assets/books/o-hobbit.png'
 import Avatar from '../Avatar'
+import { Star } from 'phosphor-react'
 
 export default function CardBookReview() {
   return (
@@ -25,7 +26,13 @@ export default function CardBookReview() {
             <h3>Hoje</h3>
           </InfosUser>
         </User>
-        ⭐⭐⭐⭐⭐
+        <span>
+          <Star color="#8381d9" />
+          <Star color="#8381d9" />
+          <Star color="#8381d9" />
+          <Star color="#8381d9" />
+          <Star color="#8381d9" />
+        </span>
       </UserReview>
       <BookReview>
         <Image src={book} width={108} alt="book" />

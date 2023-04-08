@@ -15,6 +15,11 @@ export const CardContainer = styled('div', {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
+
+    span: {
+      display: 'flex',
+      gap: '0.25rem',
+    },
   },
 })
 
