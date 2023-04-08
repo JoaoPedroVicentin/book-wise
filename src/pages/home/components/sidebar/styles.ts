@@ -82,12 +82,5 @@ export const Login = styled('div', {
     '&:hover': {
       color: '$purple100',
     },
-
-    span: {
-      color: '$green100',
-
-      display: 'flex',
-      alignItems: 'center',
-    },
   },
 })

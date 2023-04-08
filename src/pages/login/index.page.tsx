@@ -42,7 +42,7 @@ export default function Login() {
             <a>
               <Image src={githubIcon} alt="github icon" /> Entrar com o Github
             </a>
-            <Link href={'/home'}>
+            <Link href={'/'}>
               <Image src={rocketIcon} alt="rocket icon" /> Acessar como
               visitante
             </Link>
