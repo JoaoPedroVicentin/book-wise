@@ -7,14 +7,12 @@ export const AvatarContainer = styled('div', {
   alignItems: 'center',
   justifyContent: 'center',
 
-  padding: '2px',
+  padding: '1px',
 
   borderRadius: '9999px',
 
   img: {
     borderRadius: '9999px',
     objectFit: 'cover',
-    width: '100%',
-    height: '100%',
   },
 })

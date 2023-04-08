@@ -5,7 +5,9 @@ import {
   BookReview,
   BookReviewInfos,
   CardContainer,
+  User,
   UserReview,
+  InfosUser,
 } from './styles'
 
 import user from 'src/assets/user.jpg'
@@ -16,11 +18,14 @@ export default function CardBookReview() {
   return (
     <CardContainer>
       <UserReview>
-        <Avatar urlPhoto={user} alt="user" width={40} />
-        <div>
-          <h2>João Pedro Vicentin</h2>
-          <h3>Hoje</h3>
-        </div>
+        <User>
+          <Avatar urlPhoto={user} alt="user" width={40} height={40} />
+          <InfosUser>
+            <h2>João Pedro Vicentin</h2>
+            <h3>Hoje</h3>
+          </InfosUser>
+        </User>
+        ⭐⭐⭐⭐⭐
       </UserReview>
       <BookReview>
         <Image src={book} width={108} alt="book" />

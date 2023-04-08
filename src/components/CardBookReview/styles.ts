@@ -1,7 +1,6 @@
 import { styled } from '@/styles/stitches.config'
 
 export const CardContainer = styled('div', {
-  width: '38rem',
   backgroundColor: '$gray700',
 
   display: 'flex',
@@ -16,19 +15,25 @@ export const CardContainer = styled('div', {
 export const UserReview = styled('div', {
   display: 'flex',
   alignItems: 'center',
-  gap: '1rem',
+  justifyContent: 'space-between',
+})
 
-  div: {
-    h2: {
-      fontSize: '$md',
-    },
-    h3: {
-      fontSize: '$sm',
-      fontWeight: '$regular',
-
-      color: '$gray400',
-    },
+export const InfosUser = styled('div', {
+  h2: {
+    fontSize: '$md',
+    marginBottom: 0,
   },
+  h3: {
+    fontSize: '$sm',
+    fontWeight: '$regular',
+    color: '$gray400',
+  },
+})
+
+export const User = styled('div', {
+  display: 'flex',
+  alignItems: 'center',
+  gap: '1rem',
 })
 
 export const BookReview = styled('div', {

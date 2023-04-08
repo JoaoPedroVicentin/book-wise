@@ -8,7 +8,7 @@ export const SidebarContainer = styled('div', {
   flexDirection: 'column',
   justifyContent: 'space-between',
 
-  height: 'calc(100vh - 1.5rem)',
+  height: 'calc(100vh - 2rem)',
 
   borderRadius: '12px',
   padding: '1.5rem 3rem',
