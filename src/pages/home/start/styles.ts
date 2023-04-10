@@ -3,6 +3,9 @@ import { styled } from '@/styles/stitches.config'
 export const StartContainer = styled('div', {
   height: 'calc(100vh - 2rem)',
 
+  maxWidth: '1360px',
+  margin: '0 auto',
+
   display: 'flex',
   flexDirection: 'column',
 })

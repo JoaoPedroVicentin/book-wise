@@ -19,6 +19,7 @@ export const Header = styled('div', {
     display: 'flex',
     alignItems: 'center',
     gap: '0.75rem',
+    marginTop: '-0.875rem',
 
     h1: {
       fontSize: '$2xl',
@@ -38,7 +39,7 @@ export const Search = styled('form', {
   justifyContent: 'space-between',
 
   gap: '0.5rem',
-  marginTop: '0.875rem',
+  // marginTop: '0.875rem',
   padding: '0.875rem 1.25rem',
 
   transition: 'all 0.3s ease',
