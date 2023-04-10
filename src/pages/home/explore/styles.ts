@@ -8,12 +8,6 @@ export const ExploreContainer = styled('div', {
 
   display: 'flex',
   flexDirection: 'column',
-
-  h2: {
-    fontSize: '$sm',
-    fontWeight: '$medium',
-    marginBottom: '1rem',
-  },
 })
 
 export const Header = styled('div', {
@@ -25,6 +19,11 @@ export const Header = styled('div', {
     display: 'flex',
     alignItems: 'center',
     gap: '0.75rem',
+
+    h1: {
+      fontSize: '$2xl',
+      fontWeight: '$bold',
+    },
   },
 })
 

@@ -2,16 +2,9 @@ import { styled } from '@/styles/stitches.config'
 
 export const StartContainer = styled('div', {
   height: 'calc(100vh - 2rem)',
-  maxWidth: '900px',
 
   display: 'flex',
   flexDirection: 'column',
-
-  h2: {
-    fontSize: '$sm',
-    fontWeight: '$medium',
-    marginBottom: '1rem',
-  },
 })
 
 export const StartContent = styled('div', {
@@ -28,6 +21,11 @@ export const Header = styled('div', {
   gap: '0.75rem',
 
   marginBottom: '1.5rem',
+
+  h1: {
+    fontSize: '$2xl',
+    fontWeight: '$bold',
+  },
 })
 
 export const RecentReviews = styled('div', {
@@ -81,6 +79,9 @@ export const HeaderColumn = styled('div', {
     },
   },
   h2: {
+    fontSize: '$sm',
+    fontWeight: '$medium',
+    marginBottom: '1rem',
     margin: 'auto 0',
   },
 })

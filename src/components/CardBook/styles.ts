@@ -33,8 +33,8 @@ export const CardContainer = styled('div', {
 export const BookInfos = styled('div', {
   h2: {
     fontSize: '$md',
-    marginBottom: -1,
   },
+
   h3: {
     fontSize: '$sm',
     fontWeight: '$regular',
