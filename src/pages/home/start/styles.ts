@@ -2,6 +2,7 @@ import { styled } from '@/styles/stitches.config'
 
 export const StartContainer = styled('div', {
   height: 'calc(100vh - 2rem)',
+  maxWidth: '900px',
 
   display: 'flex',
   flexDirection: 'column',
@@ -88,4 +89,6 @@ export const PopularBooksContainer = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   gap: '0.75rem',
+
+  overflow: 'hidden',
 })

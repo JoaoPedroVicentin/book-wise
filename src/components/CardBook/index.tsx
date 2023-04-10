@@ -4,10 +4,14 @@ import { BookInfos, CardContainer } from './styles'
 import book from 'src/assets/books/a-revolucao-dos-bichos.png'
 import { Star } from 'phosphor-react'
 
-export function CardBook() {
+interface CardBookProps {
+  imgWidth: number
+}
+
+export function CardBook({ imgWidth }: CardBookProps) {
   return (
     <CardContainer>
-      <Image src={book} width={64} alt="book" />
+      <Image src={book} width={imgWidth} alt="book" />
       <div>
         <BookInfos>
           <h2>A revolução dos bichos</h2>

@@ -48,10 +48,10 @@ export default function Start() {
           </HeaderColumn>
 
           <PopularBooksContainer>
-            <CardBook />
-            <CardBook />
-            <CardBook />
-            <CardBook />
+            <CardBook imgWidth={64} />
+            <CardBook imgWidth={64} />
+            <CardBook imgWidth={64} />
+            <CardBook imgWidth={64} />
           </PopularBooksContainer>
         </PopularBooks>
       </StartContent>

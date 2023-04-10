@@ -1,5 +1,13 @@
 import { Binoculars, MagnifyingGlass } from 'phosphor-react'
-import { ExploreContainer, Header, Search } from './styles'
+import {
+  BooksContainer,
+  Categories,
+  ExploreContainer,
+  Header,
+  Input,
+  Search,
+} from './styles'
+import { CardBook } from '@/components/CardBook'
 
 export function Explore() {
   return (
@@ -11,12 +19,39 @@ export function Explore() {
         </div>
 
         <Search>
-          <input placeholder="Buscar livro ou autor" />
+          <Input placeholder="Buscar livro ou autor" />
           <button type="submit">
             <MagnifyingGlass size={20} />
           </button>
         </Search>
       </Header>
+
+      <Categories>
+        <a href="">Tudo</a>
+        <a href="">Computação</a>
+        <a href="">Educação</a>
+        <a href="">Fantasia</a>
+        <a href="">Ficção Científica</a>
+        <a href="">Horror</a>
+        <a href="">HQs</a>
+        <a href="">Suspense</a>
+      </Categories>
+
+      <BooksContainer>
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+        <CardBook imgWidth={108} />
+      </BooksContainer>
     </ExploreContainer>
   )
 }
