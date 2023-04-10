@@ -1,12 +1,13 @@
 import { Container } from './styles'
 import { Sidebar } from './components/sidebar'
-import Start from './start'
+// import Start from './start'
+import { Explore } from './explore'
 
 export default function MyApp() {
   return (
     <Container>
       <Sidebar />
-      <Start />
+      <Explore />
     </Container>
   )
 }
