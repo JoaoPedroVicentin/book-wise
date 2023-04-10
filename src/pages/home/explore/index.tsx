@@ -9,7 +9,7 @@ import {
 } from './styles'
 import { CardBook } from '@/components/CardBook'
 
-export function Explore() {
+export default function Explore() {
   return (
     <ExploreContainer>
       <Header>

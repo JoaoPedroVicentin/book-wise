@@ -1,7 +1,7 @@
 import { Container } from './styles'
 import { Sidebar } from './components/sidebar'
+import Explore from './explore'
 import Start from './start'
-import { Explore } from './explore'
 
 export default function MyApp() {
   return (

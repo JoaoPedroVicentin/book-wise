@@ -19,7 +19,7 @@ export const Header = styled('div', {
     display: 'flex',
     alignItems: 'center',
     gap: '0.75rem',
-    marginTop: '-0.875rem',
+    marginTop: 'calc(-0.875rem - 1px)',
 
     h1: {
       fontSize: '$2xl',
